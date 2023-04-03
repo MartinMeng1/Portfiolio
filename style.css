@@ -1,0 +1,215 @@
+body{
+    background-color: lavender;
+}
+header {
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+}
+
+
+section h3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    flex-direction: column;
+    margin: 2% auto;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h1::before,
+h1::after{
+    content:'\2766';
+    color:gold;
+}
+
+h2{
+    color:brown;
+}
+
+h2:before,
+h2:after{
+    content: '\1F600';
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav ul{
+    display:flex;
+    color:blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    font-size: larger;
+    padding:5px 10px;
+}
+
+section#intro{
+    color:red;
+    text-align: center;
+    margin:0px auto;
+    border-top: 10px bisque;
+    font-size: larger;
+}
+
+#Aboutme article {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: x-large;
+     
+}
+
+ h3{
+    color: yellowgreen;
+    font-size: xx-large;
+    
+}
+
+#Aboutme article::after{
+    content:'\273A';
+    color:red;
+
+}
+
+#Aboutme img{
+    height: 400px;
+    width:600px;
+    justify-content: space-between;
+    margin-right:40px;
+}
+
+.image img{
+    width:70%;
+    margin-left: 0px;
+}
+
+.image {
+    position: relative;
+    }
+    
+.image figcaption{
+    position: absolute;
+    font-size: xx-large;
+    color:brown;
+    bottom:400px;
+
+}
+
+.image1 img{
+    height:600px;
+    width:600px;
+    margin-left: 0px;
+}
+
+.image1{
+    position:relative;
+}
+
+.image1 figcaption{
+    position: absolute;
+    font-size: xx-large;
+    color:yellowgreen;
+    bottom:400px;
+}
+
+.image2 img{
+    height:600px;
+    width:600px;
+    margin-left: 0px;
+}
+
+.image2{
+    position:relative;
+}
+
+.image2 figcaption{
+    position: absolute;
+    font-size: xx-large;
+    color:yellow;
+    bottom:400px;
+
+}
+
+.image3 img{
+    height:600px;
+    width:600px;
+    margin-left: 0px;
+}
+
+.image3{
+    position:relative;
+}
+
+.image3 figcaption{
+    position: absolute;
+    font-size: xx-large;
+    color:yellow;
+    bottom: 380px;
+
+}
+
+aside{
+    font-size: larger;
+    position:sticky;
+    text-align: right;
+    Top:90px;
+}
+
+
+
+#row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+#Mycontact ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly
+
+}
+
+#Mycontact ul li{
+    font-size:xx-large
+}
+
+@media screen and (max-width: 768px) {
+    
+    main,
+    nav {
+      flex-direction: column;
+    }
+    
+      order: 2;
+    }
+    header {
+      background: #772014;
+    }
+  
+    figure:hover{
+        background-color: darkcyan;
+    }
+
+    figure:active{
+        font-size: 180%;
+        box-shadow: 0 0 10px #000 inset;
+    }
+
+
+
