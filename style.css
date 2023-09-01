@@ -179,6 +179,24 @@ section#intro{
     bottom: 380px;
 
 }
+
+.image5 img{
+    height:600px;
+    width:600px;
+    margin-left: 0px;
+}
+
+.image5{
+    position:relative;
+}
+
+.image5 figcaption{
+    position: absolute;
+    font-size: xx-large;
+    color:yellow;
+    bottom: 380px;
+
+}
 aside{
     font-size: larger;
     position:sticky;
